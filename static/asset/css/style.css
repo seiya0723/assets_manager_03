@@ -203,13 +203,13 @@ input[type="radio"]#tab_radio_12:checked ~ #tab_area_12 { display:block; }
     background-color: rgba(0,0,0,0.6);
 }
 #modal_content{
+    position:relative;
     top: calc(50% + 1.5rem);
     left: 50%;
     transform: translate(-50%,-50%);
     width:90vw;
     height:90vh;
-    background:#fff;
-    padding:10px;
-    position:relative;
+    background:white;
+    padding:1rem;
 }
 

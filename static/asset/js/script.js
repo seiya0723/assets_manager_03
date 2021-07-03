@@ -33,8 +33,6 @@ window.addEventListener("load" , function(){
 });
 
 function pie_chart(){
-    console.log("chart");
-
     draw_graph();
     $("#modal").show();
 }
